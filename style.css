@@ -1,0 +1,157 @@
+.zomato{
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  #header-img{
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.10),rgba(0,0,0,0.20)),url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header{
+    width: 100vw;
+    height: 60px;
+  }
+  .nav-menu{
+      width: 60vw;
+      height: 60px;
+  }
+  .header-flex{
+      margin-top: 100px;
+  }
+  .nav-link{
+      border-bottom: 0px solid black;
+      transition: border-bottom 0.30;
+      cursor: pointer;
+  }
+  .nav-link:hover{
+      border-bottom: 5px solid white;
+  }
+  .search-box{
+      width: 30vw;
+      height: 53px;
+      background-color: white;
+      border-bottom-left-radius: 50px;
+      border-top-left-radius: 50px;
+      padding-left: 20px;
+      outline: none;
+      border: none;
+      font-size: 15px;
+  }
+  .search-btn{
+      width: 130px;
+      background-color: rgb(170, 16, 16);
+      color: white;
+      border: none;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      font-weight: bold;
+      font-size: 17px;
+  }
+  #second-section{
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  .card{
+      width: 100%;
+      height: 200px;
+      background-color: white;
+      border: none;
+      border-radius: inherit;
+      box-shadow: 1px 1px 10px #ccc;
+     
+      transition: box-shadow 0.3s;
+      margin-bottom: 10px;
+
+  }
+  .card :hover{
+      box-shadow: 1px 1px 10px #000;
+      cursor: pointer;
+      padding: 5px;
+  }
+  .card-bottom{
+      position: absolute;
+      background-color: white;
+      height: 50px;
+      width: 100%;
+      margin-top: 150px;
+  }
+  #third-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* .card-1{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    border: none;
+    border-radius: inherit;
+    box-shadow: 1px 1px 10px #ccc;
+   
+    transition: box-shadow 0.3s;
+    margin-bottom: 10px;
+  }
+  .card-bottom1{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 350px;
+  } */
+  .h1{
+      margin-left: 50px;
+  }
+  #popular-location{
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  .popular-heading{
+      font-size: 35px;
+      color: black;
+  }
+  .locations-div{
+      width: 100%;
+      height: 50px;
+      background-color: white;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  .locations-div :hover{
+      box-shadow: 1 px 1px 5px #ccc;
+  }
+  #get-zomato-app{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: rgba(234,241,130,0.1);
+  }
+  .email-input{
+      width: 250px;
+      height: 40px;
+      padding-left: 10px;
+      border: 1px solid #ccc;
+      outline: none;
+      border-radius: 10px;
+      background-color: white;
+  }
+  /* @media only screen and (max-width:768px){
+      .location-div{
+          margin-bottom: 10px;
+      }
+  } */
